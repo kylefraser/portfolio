@@ -199,7 +199,7 @@ const Layout = () => {
           <Divider />
           <SubHeader>Mission</SubHeader>
           <Text>
-            To leverage and continually evolve my skillset in an effective and
+            To leverage and continually expand my skillset in an effective and
             efficient manner as a member of a proficient team with strong
             culture towards providing a well thought out and innovative product.
           </Text>
@@ -218,10 +218,13 @@ const Layout = () => {
             with strong teams forges these qualities.
           </Text>
           <Text>
-            A strong believer in the balance of mind, body, and spirit along
-            with a positive mental attitude, I do my best to exude optimism.
+            An ardent believer in the balance of mind, body, and spirit, along
+            with a positive mental attitude, I do my best to emanate the common
+            good. Constantly evolving with each new introduction, I value the
+            insights gained from all people.
           </Text>
           <Text>I aim to excel and live for a challenge.</Text>
+          <Text>Always Forward.</Text>
           <SubHeader>Experience</SubHeader>
           <List>
             <ListItem>
@@ -307,15 +310,15 @@ const Layout = () => {
                   shots fired.
                 </Text>
                 <Text style={{ color: '#ffffff' }}>
-                  Initial wireframing was done in the Concepts app for iPad
-                  along with Apple Pencil. High fidelity designs were then done
-                  in Figma. On the development side of things, this project uses
-                  a node server backend built with Apollo and a GraphQL API
+                  Initial wireframing was sketched in the Concepts app for iPad
+                  using Apple Pencil. High fidelity designs were then created in
+                  Figma. On the development side of things, this project uses a
+                  node server backend built with Apollo and a GraphQL API
                   connected to a MongoDB database. The frontend is built with
                   React Native & React Native Web, and utilizes a single
-                  codebase of atomic structured components - which greatly
+                  codebase of atomically structured components - which greatly
                   enhances consistency across devices. State management is
-                  handled with hook architecture.
+                  handled with hooks architecture.
                 </Text>
                 <Text style={{ color: '#ffffff', marginBottom: 64 }}>
                   I hope to release a beta version of the app sometime in Late
