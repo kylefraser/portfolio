@@ -383,9 +383,6 @@ const Layout = () => {
               Thinking, Fast and Slow - Daniel Kahneman
             </MinimalListItem>
             <MinimalListItem>The Degüello - Scott Zastrow</MinimalListItem>
-            <MinimalListItem>
-              Special Forces: A Unique National Asset - Mark Boyatt
-            </MinimalListItem>
           </List>
           <SubHeader>Recreation</SubHeader>
           <List>
@@ -394,7 +391,7 @@ const Layout = () => {
             <MinimalListItem>Salt water paddler</MinimalListItem>
             <MinimalListItem>Mountains and plains hiker</MinimalListItem>
             <MinimalListItem>Cement Tacoma offroad driver</MinimalListItem>
-            <MinimalListItem>Heavy metal guitar picker</MinimalListItem>
+            <MinimalListItem>Rock 'n Roll Guitar player</MinimalListItem>
           </List>
           <SubHeader>Contact</SubHeader>
           <Text>
