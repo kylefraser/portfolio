@@ -167,6 +167,7 @@ const Layout = () => {
       }
       ordnanceImages: allFile(
         filter: { relativeDirectory: { eq: "ordnance" } }
+        sort: { fields: name }
       ) {
         edges {
           node {
@@ -216,7 +217,11 @@ const Layout = () => {
             and contributing intelligently towards a given goal. Working in sync
             with strong teams forges these qualities.
           </Text>
-          <Text>I aim to excel and live for the challenge.</Text>
+          <Text>
+            A strong believer in the balance of mind, body, and spirit along
+            with a positive mental attitude, I do my best to exude optimism.
+          </Text>
+          <Text>I aim to excel and live for a challenge.</Text>
           <SubHeader>Experience</SubHeader>
           <List>
             <ListItem>
@@ -308,11 +313,10 @@ const Layout = () => {
                   a node server backend built with Apollo and a GraphQL API
                   connected to a MongoDB database. The frontend is built with
                   React Native & React Native Web, and utilizes a single
-                  codebase of atomic components - which greatly enhances
-                  consistency across devices. State management is handled with
-                  hook architecture.
+                  codebase of atomic structured components - which greatly
+                  enhances consistency across devices. State management is
+                  handled with hook architecture.
                 </Text>
-
                 <Text style={{ color: '#ffffff', marginBottom: 64 }}>
                   I hope to release a beta version of the app sometime in Late
                   Spring/Early Summer 2021.
