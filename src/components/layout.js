@@ -353,8 +353,8 @@ const Layout = () => {
               Full Stack Open - University of Helsinki MOOC, Online 2020
               <ListText>
                 Full Stack Open is a deep dive into modern web development. The
-                course is offered by University of Helsinki's Department of
-                Computer Science through their Massive Open Onlice Course (MOOC)
+                course is offered by the University of Helsinki's Department of
+                Computer Science through their Massive Open Online Course (MOOC)
                 program. The main focus is on building single page applications
                 with ReactJS that use REST APIs built with Node.js.
               </ListText>
