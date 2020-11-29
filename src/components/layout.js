@@ -139,6 +139,22 @@ const OrdnanceLogo = styled.p({
   },
 });
 
+const Button = styled.button({
+  background: '#90ce70',
+  color: '#ffffff',
+  cursor: 'pointer',
+  fontSize: 13,
+  fontWeight: 700,
+  borderRadius: 4,
+  border: 0,
+  boxShadow: 0,
+  padding: '4px 16px',
+  transition: '500ms',
+  '&:hover': {
+    background: '#83bc66',
+  },
+});
+
 const Layout = () => {
   const [show, setShow] = useState(false);
   const [offset, setOffset] = useState();
@@ -263,22 +279,7 @@ const Layout = () => {
                 number of different training scenarios. Add your friends and
                 compete to see who has the best times, accuracy, and precision.
               </ListText>
-              <button
-                onClick={() => setShow((s) => !s)}
-                style={{
-                  background: '#90ce70',
-                  color: '#ffffff',
-                  cursor: 'pointer',
-                  fontSize: 13,
-                  fontWeight: 700,
-                  borderRadius: 4,
-                  border: 0,
-                  boxShadow: 0,
-                  padding: '4px 16px',
-                }}
-              >
-                View More
-              </button>
+              <Button onClick={() => setShow((s) => !s)}>View More</Button>
             </ListItem>
           </List>
           <ProcessContainer
