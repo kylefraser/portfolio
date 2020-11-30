@@ -223,9 +223,9 @@ const Layout = () => {
           </Text>
           <SubHeader>About</SubHeader>
           <Text>
-            Raised in Maine, being surrounded by nature gave me a strong respect
-            for the beauty of the outdoors. I try to bring these parallels into
-            everyday life, especially when thinking of design.
+            Raised in Maine, being surrounded by nature has given me a strong
+            respect for the beauty of the outdoors. I try to bring these
+            parallels into everyday life, especially when thinking of design.
           </Text>
           <Text>
             My first experience with computers was at 4 years old. I would help
