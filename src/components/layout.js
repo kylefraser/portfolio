@@ -288,7 +288,9 @@ const Layout = () => {
                 number of different training scenarios. Add your friends and
                 compete to see who has the best times, accuracy, and precision.
               </ListText>
-              <Button onClick={() => setShow((s) => !s)}>View More</Button>
+              <Button onClick={() => setShow((s) => !s)}>
+                {!show ? 'View More' : 'View Less'}
+              </Button>
             </ListItem>
           </List>
           <ProcessContainer
