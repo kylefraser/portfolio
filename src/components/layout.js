@@ -222,7 +222,7 @@ const Layout = () => {
           <SubHeader>About</SubHeader>
           <Text>
             Raised in Maine, being surrounded by nature gave me a strong respect
-            for the beauty of the outdoors. I try to bring these parrallels into
+            for the beauty of the outdoors. I try to bring these parallels into
             everyday life, especially when thinking of design.
           </Text>
           <Text>
