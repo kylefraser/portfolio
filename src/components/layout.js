@@ -103,7 +103,7 @@ const ProcessContainer = styled(AnimateHeight)(
   {
     background: '#3c442e',
     position: 'relative',
-    width: '100vw',
+    width: '110vw', //extra width for mobile
   },
   (props) => ({
     left: `calc(-${props.offset + 40}px)`,
@@ -326,7 +326,7 @@ const Layout = () => {
                   React Native & React Native Web, and utilizes a single
                   codebase of atomically structured components - which greatly
                   enhances consistency across devices. State management is
-                  handled with hooks architecture.
+                  handled via hooks architecture.
                 </Text>
                 <Text style={{ color: '#ffffff', marginBottom: 64 }}>
                   I hope to release a beta version of the app sometime in Late
@@ -346,8 +346,15 @@ const Layout = () => {
                   />
                 ))}
               </div>
-              <Text style={{ color: '#ffffff', marginTop: 64, maxWidth: 720 }}>
-                A goal of mine has been to create more projects to highlight
+              <Text
+                style={{
+                  color: '#ffffff',
+                  fontSize: 14,
+                  marginTop: 64,
+                  maxWidth: 720,
+                }}
+              >
+                *A goal of mine has been to create more projects to highlight
                 examples of work for employment opportunities. More information
                 is available on request, such as wireframe sketches, a simple
                 prototype walkthrough, additional screenshots of mobile and
@@ -401,8 +408,8 @@ const Layout = () => {
             <MinimalListItem>Fish more, worry less</MinimalListItem>
             <MinimalListItem>Salt water paddler</MinimalListItem>
             <MinimalListItem>Mountains and plains hiker</MinimalListItem>
-            <MinimalListItem>Cement Tacoma offroad driver</MinimalListItem>
-            <MinimalListItem>Rock 'n Roll Guitar player</MinimalListItem>
+            <MinimalListItem>Toyota Tacoma offroad driver</MinimalListItem>
+            <MinimalListItem>Rock 'n Roll guitar player</MinimalListItem>
           </List>
           <SubHeader>Contact</SubHeader>
           <Text>
