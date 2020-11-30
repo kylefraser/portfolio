@@ -103,10 +103,12 @@ const ProcessContainer = styled(AnimateHeight)(
   {
     background: '#3c442e',
     position: 'relative',
-    width: '110vw', //extra width for mobile
   },
   (props) => ({
     left: `calc(-${props.offset + 40}px)`,
+  }),
+  mq({
+    width: ['110vw', '100vw'],
   }),
 );
 
