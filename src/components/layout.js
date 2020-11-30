@@ -234,7 +234,7 @@ const Layout = () => {
             before the days of "gigahertz", named GOD - the Guardian of Data. A
             self-taught coder, I quickly gained an affection for creating and
             hacking during the days of 28.8kbps dial up. It was during these
-            years where I would learn to bend the rules, think outside of
+            years when I would learn to bend the rules, think outside of
             conformity, and forever respect the necessity of internet anonymity.{' '}
             <span role="img" aria-label="Pirate Flag">
               🏴‍☠️
