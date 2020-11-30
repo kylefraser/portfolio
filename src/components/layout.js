@@ -226,10 +226,10 @@ const Layout = () => {
             everyday life, especially when thinking of design.
           </Text>
           <Text>
-            My first experience with comptuers was at 4 years old. I would help
-            my mother load the 8" floppy disks with DOS onto the elementary
-            school computers, where she volunteered. The first PC I built was at
-            12 years old with my friends father's help, an IBM employee, who was
+            My first experience with computers was at 4 years old. I would help
+            my mother load 8" floppy disks with DOS onto the elementary school
+            computers, where she volunteered. The first PC I built was at 12
+            years old with my friends father's help, an IBM employee, who was
             able to provide us with a LAN gaming paradise. It was a 900mhz
             powerhouse, before the days of "gigahertz", named GOD - the Guardian
             of Data. A self-taught coder, I quickly gained an affection for
@@ -314,7 +314,7 @@ const Layout = () => {
                   more rich understanding of full stack application development.
                   A true "learn by doing" experience in the latest development
                   technologies and best practices, along with exploring new
-                  exciting native API's - such as microphone access for counting
+                  exciting native API's — such as microphone access for counting
                   shots fired.
                 </Text>
                 <Text style={{ color: '#ffffff' }}>
@@ -324,7 +324,7 @@ const Layout = () => {
                   node server backend built with Apollo and a GraphQL API
                   connected to a MongoDB database. The frontend is built with
                   React Native & React Native Web, and utilizes a single
-                  codebase of atomically structured components - which greatly
+                  codebase of atomically structured components — which greatly
                   enhances consistency across devices. State management is
                   handled via hooks architecture.
                 </Text>
