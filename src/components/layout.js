@@ -230,12 +230,13 @@ const Layout = () => {
             my mother load the 8" floppy disks with DOS onto the elementary
             school computers, where she volunteered. The first PC I built was at
             12 years old with my friends father's help, an IBM employee, who was
-            able to provide us with a LAN gaming paradise. A 900mhz powerhouse,
-            before the days of "gigahertz", named GOD - the Guardian of Data. A
-            self-taught coder, I quickly gained an affection for creating and
-            hacking during the days of 28.8kbps dial up. It was during these
-            years when I would learn to bend the rules, think outside of
-            conformity, and forever respect the necessity of internet anonymity.{' '}
+            able to provide us with a LAN gaming paradise. It was a 900mhz
+            powerhouse, before the days of "gigahertz", named GOD - the Guardian
+            of Data. A self-taught coder, I quickly gained an affection for
+            creating and hacking during the days of 28.8kbps dial up. It was
+            during these years when I would learn to bend the rules, think
+            outside of conformity, and forever respect the necessity of internet
+            anonymity.{' '}
             <span role="img" aria-label="Pirate Flag">
               🏴‍☠️
             </span>
