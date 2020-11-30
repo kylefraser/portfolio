@@ -221,17 +221,24 @@ const Layout = () => {
           </Text>
           <SubHeader>About</SubHeader>
           <Text>
-            Raised in Maine, our state motto is '
-            <LinkItem
-              href="https://en.wikipedia.org/wiki/Seal_of_Maine"
-              target="_blank"
-            >
-              Dirigo
-            </LinkItem>
-            ' — latin for 'I Lead'. It's a phrase that defines the core of who I
-            strive to be. Someone who is constantly learning, honing his skills,
-            and contributing intelligently towards a given goal. Working in sync
-            with strong teams forges these qualities.
+            Raised in Maine, being surrounded by nature gave me a strong respect
+            for the beauty of the outdoors. I try to bring these parrallels into
+            everyday life, especially when thinking of design.
+          </Text>
+          <Text>
+            My first experience with comptuers was at 4 years old. I would help
+            my mother load the 8" floppy disks with DOS onto the elementary
+            school computers, where she volunteered. The first PC I built was at
+            12 years old with my friends father's help, an IBM employee, who was
+            able to provide us with a LAN gaming paradise. A 900mhz powerhouse,
+            before the days of "gigahertz", named GOD - the Guardian of Data. A
+            self-taught coder, I quickly gained an affection for creating and
+            hacking during the days of 28.8kbps dial up. It was during these
+            years where I would learn to bend the rules, think outside of
+            conformity, and forever respect the necessity of internet anonymity.{' '}
+            <span role="img" aria-label="Pirate Flag">
+              🏴‍☠️
+            </span>
           </Text>
           <Text>
             An ardent believer in the balance of mind, body, and spirit, along
@@ -239,7 +246,6 @@ const Layout = () => {
             good. Constantly evolving with each new introduction, I value the
             insights gained from all people.
           </Text>
-          <Text>I aim to excel and live for a challenge.</Text>
           <Text>Always Forward.</Text>
           <SubHeader>Experience</SubHeader>
           <List>
