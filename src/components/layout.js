@@ -396,7 +396,7 @@ const Layout = () => {
           <List>
             <MinimalListItem>Meditations - Marcus Aurelius</MinimalListItem>
             <MinimalListItem>The Discourses - Epictetus</MinimalListItem>
-            <MinimalListItem>Fearless - Adam Brown</MinimalListItem>
+            <MinimalListItem>Fearless - Eric Blehm</MinimalListItem>
             <MinimalListItem>Atomic Design - Brad Frost</MinimalListItem>
             <MinimalListItem>
               Laying the Foundations - Andrew Couldwell
