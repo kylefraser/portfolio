@@ -318,8 +318,7 @@ const Layout = () => {
                   more rich understanding of full stack application development.
                   A true "learn by doing" experience in the latest development
                   technologies and best practices, along with exploring new
-                  exciting native API's — such as microphone access for counting
-                  shots fired.
+                  exciting native API's.
                 </Text>
                 <Text style={{ color: '#ffffff' }}>
                   Initial wireframing was sketched in the Concepts app for iPad
