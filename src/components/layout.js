@@ -235,10 +235,7 @@ const Layout = () => {
             able to provide us with a LAN gaming paradise. It was a 900mhz
             powerhouse, before the days of "gigahertz", named GOD - the Guardian
             of Data. A self-taught coder, I quickly gained an affection for
-            creating and hacking during the days of 28.8kbps dial up. It was
-            during these years when I would learn to bend the rules, think
-            outside of conformity, and forever respect the necessity of internet
-            anonymity.{' '}
+            creating and hacking during the days of 28.8kbps dial up.{' '}
             <span role="img" aria-label="Pirate Flag">
               🏴‍☠️
             </span>
@@ -277,94 +274,7 @@ const Layout = () => {
               </ListText>
             </ListItem>
           </List>
-          <SubHeader>Projects</SubHeader>
-          <List>
-            <ListItem>
-              Ordnance
-              <ListText>
-                A comprehensive ledger for the firearms enthusiast. Keep track
-                of weapon data, reloading recipes, items on hand, and build
-                specifications. Record and chart your progression through a
-                number of different training scenarios. Add your friends and
-                compete to see who has the best times, accuracy, and precision.
-              </ListText>
-              <Button onClick={() => setShow((s) => !s)}>
-                {!show ? 'View More' : 'View Less'}
-              </Button>
-            </ListItem>
-          </List>
-          <ProcessContainer
-            offset={offset}
-            height={show ? 'auto' : 0}
-            style={{ marginBottom: show ? 32 : 0 }}
-            duration={250}
-          >
-            <ProcessInnerContainer offset={offset}>
-              <div style={{ maxWidth: 720 }}>
-                <OrdnanceLogo>
-                  Ordnance<span>//</span>
-                </OrdnanceLogo>
-                <Text style={{ color: '#ffffff' }}>
-                  This project started as an idea in late October 2020 after a
-                  day at the range with friends and realizing the lack of
-                  firearm related apps, let alone ones that look good. The
-                  premise of this app is to incorporate data keeping, training
-                  analytics, safety education, and connect a user base of like
-                  minded individuals.
-                </Text>
-                <Text style={{ color: '#ffffff' }}>
-                  As the sole designer and developer, this has been an
-                  opportunity to flex creativity in design and to gain a vastly
-                  more rich understanding of full stack application development.
-                  A true "learn by doing" experience in the latest development
-                  technologies and best practices, along with exploring new
-                  exciting native API's.
-                </Text>
-                <Text style={{ color: '#ffffff' }}>
-                  Initial wireframing was sketched in the Concepts app for iPad
-                  using Apple Pencil. High fidelity designs were then created in
-                  Figma. On the development side of things, this project uses a
-                  node server backend built with Apollo and a GraphQL API
-                  connected to a MongoDB database. The frontend is built with
-                  React Native & React Native Web, and utilizes a single
-                  codebase of atomically structured components — which greatly
-                  enhances consistency across devices. State management is
-                  handled via hooks architecture.
-                </Text>
-                <Text style={{ color: '#ffffff', marginBottom: 64 }}>
-                  I hope to release a beta version of the app sometime in Late
-                  Spring/Early Summer 2021.
-                </Text>
-              </div>
-              <div style={{ display: 'flex' }}>
-                {data.ordnanceImages.edges.map(({ node }, i) => (
-                  <Image
-                    key={i}
-                    fluid={node.childImageSharp.fluid}
-                    style={{
-                      display: 'block',
-                      margin: 0,
-                      width: '100%',
-                    }}
-                  />
-                ))}
-              </div>
-              <Text
-                style={{
-                  color: '#ffffff',
-                  fontSize: 14,
-                  marginTop: 64,
-                  maxWidth: 720,
-                }}
-              >
-                *A goal of mine has been to create more projects to highlight
-                examples of work for employment opportunities. More information
-                is available on request, such as wireframe sketches, a simple
-                prototype walkthrough, additional screenshots of mobile and
-                desktop, and code examples.
-              </Text>
-            </ProcessInnerContainer>
-          </ProcessContainer>
+
           <SubHeader>Education</SubHeader>
           <List>
             <ListItem>
@@ -390,20 +300,6 @@ const Layout = () => {
               Bachelor of Science in Business Administration - Finance &
               Management, University of Maine 2010
             </ListItem>
-          </List>
-          <SubHeader>Reading</SubHeader>
-          <List>
-            <MinimalListItem>Meditations - Marcus Aurelius</MinimalListItem>
-            <MinimalListItem>The Discourses - Epictetus</MinimalListItem>
-            <MinimalListItem>Fearless - Eric Blehm</MinimalListItem>
-            <MinimalListItem>Atomic Design - Brad Frost</MinimalListItem>
-            <MinimalListItem>
-              Laying the Foundations - Andrew Couldwell
-            </MinimalListItem>
-            <MinimalListItem>
-              Thinking, Fast and Slow - Daniel Kahneman
-            </MinimalListItem>
-            <MinimalListItem>The Degüello - Scott Zastrow</MinimalListItem>
           </List>
           <SubHeader>Recreation</SubHeader>
           <List>
