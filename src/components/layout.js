@@ -214,7 +214,7 @@ const Layout = () => {
         <Content id="wrapper" ref={wrapperRef}>
           <Logo />
           <Name>Kyle Fraser</Name>
-          <Description as="h2">Frontend Developer</Description>
+          <Description>Frontend Developer</Description>
           <Divider />
           <SubHeader>Mission</SubHeader>
           <Text>
