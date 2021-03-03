@@ -41,8 +41,9 @@ const Name = styled.h2({
   letterSpacing: 1,
 });
 
-const Description = styled.h5({
+const Description = styled.h3({
   fontFamily: "'Roboto Condensed', sans-serif",
+  fontSize: '1rem',
   marginTop: 0,
   letterSpacing: 1,
 });
@@ -213,7 +214,7 @@ const Layout = () => {
         <Content id="wrapper" ref={wrapperRef}>
           <Logo />
           <Name>Kyle Fraser</Name>
-          <Description>Frontend Developer</Description>
+          <Description as="h2">Frontend Developer</Description>
           <Divider />
           <SubHeader>Mission</SubHeader>
           <Text>
