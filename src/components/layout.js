@@ -250,13 +250,21 @@ const Layout = () => {
           <SubHeader>Experience</SubHeader>
           <List>
             <ListItem>
-              <LinkItem href="https://starburst.io" target="_blank" stryl>
+              <LinkItem
+                href="https://starburst.io"
+                target="_blank"
+                rel="noopener"
+              >
                 Starburst Data
               </LinkItem>{' '}
               - Web Developer
             </ListItem>
             <ListItem>
-              <LinkItem href="https://robinpowered.com" target="_blank" stryl>
+              <LinkItem
+                href="https://robinpowered.com"
+                target="_blank"
+                rel="noopener"
+              >
                 Robin Powered
               </LinkItem>{' '}
               - Frontend Designer
@@ -267,7 +275,11 @@ const Layout = () => {
               </ListText>
             </ListItem>
             <ListItem>
-              <LinkItem href="https://hellobonfire.com" target="_blank">
+              <LinkItem
+                href="https://hellobonfire.com"
+                target="_blank"
+                rel="noopener"
+              >
                 Bonfire Studios
               </LinkItem>{' '}
               - Frontend Web Developer
