@@ -61,11 +61,11 @@ const List = styled.ul({ listStyle: 'none', padding: 0, margin: '0 0 0 12px' });
 const Divider = styled.hr({ backgroundColor: '#90ce70', height: 1 });
 
 const LinkItem = styled.a({
-  boxShadow: 'none',
+  boxShadow: '0 1px 0 0 currentColor',
   color: '#478527',
   textDecoration: 'none',
   '&:hover': {
-    boxShadow: '0 1px 0 0 currentColor',
+    boxShadow: 'none',
   },
 });
 
