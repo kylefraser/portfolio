@@ -6,7 +6,7 @@ import { Logo } from './Logo';
 import { useStaticQuery, graphql } from 'gatsby';
 import Image from 'gatsby-image';
 import facepaint from 'facepaint';
-import AnimateHeight from 'react-animate-height';
+// import AnimateHeight from 'react-animate-height';
 
 const breakpoints = [480, 768];
 
@@ -61,7 +61,7 @@ const Divider = styled.hr({ backgroundColor: '#90ce70', height: 1 });
 
 const LinkItem = styled.a({
   boxShadow: 'none',
-  color: '#90ce70',
+  color: '#478527',
   textDecoration: 'none',
   '&:hover': {
     boxShadow: '0 1px 0 0 currentColor',
@@ -99,66 +99,66 @@ const ListText = styled.p({ fontSize: 14, marginTop: 12, paddingRight: 32 });
 
 // const Span = styled.span({color: '#90ce70', fontWeight: 700})
 
-const ProcessContainer = styled(AnimateHeight)(
-  {
-    background: '#3c442e',
-    position: 'relative',
-  },
-  (props) => ({
-    left: `calc(-${props.offset + 40}px)`,
-  }),
-  mq({
-    width: ['110vw', '100vw'],
-  }),
-);
+// const ProcessContainer = styled(AnimateHeight)(
+//   {
+//     background: '#3c442e',
+//     position: 'relative',
+//   },
+//   (props) => ({
+//     left: `calc(-${props.offset + 40}px)`,
+//   }),
+//   mq({
+//     width: ['110vw', '100vw'],
+//   }),
+// );
 
-const ProcessInnerContainer = styled.div(
-  {
-    display: 'flex',
-    flexDirection: 'column',
-    width: '100%',
-    maxWidth: 1100,
-    padding: 40,
-    position: 'relative',
-    overflow: 'hidden',
-  },
-  (props) => ({
-    left: props.offset,
-  }),
-);
+// const ProcessInnerContainer = styled.div(
+//   {
+//     display: 'flex',
+//     flexDirection: 'column',
+//     width: '100%',
+//     maxWidth: 1100,
+//     padding: 40,
+//     position: 'relative',
+//     overflow: 'hidden',
+//   },
+//   (props) => ({
+//     left: props.offset,
+//   }),
+// );
 
-const OrdnanceLogo = styled.p({
-  fontFamily: "'Tomorrow', sans-serif",
-  fontSize: 40,
-  textTransform: 'uppercase',
-  color: '#ffffff',
-  '& > span': {
-    color: '#A6CF70',
-    fontSize: 35,
-    position: 'relative',
-    top: -3,
-    left: 6,
-  },
-});
+// const OrdnanceLogo = styled.p({
+//   fontFamily: "'Tomorrow', sans-serif",
+//   fontSize: 40,
+//   textTransform: 'uppercase',
+//   color: '#ffffff',
+//   '& > span': {
+//     color: '#A6CF70',
+//     fontSize: 35,
+//     position: 'relative',
+//     top: -3,
+//     left: 6,
+//   },
+// });
 
-const Button = styled.button({
-  background: '#90ce70',
-  color: '#ffffff',
-  cursor: 'pointer',
-  fontSize: 13,
-  fontWeight: 700,
-  borderRadius: 4,
-  border: 0,
-  boxShadow: 0,
-  padding: '4px 16px',
-  transition: '500ms',
-  '&:hover': {
-    background: '#83bc66',
-  },
-});
+// const Button = styled.button({
+//   background: '#90ce70',
+//   color: '#ffffff',
+//   cursor: 'pointer',
+//   fontSize: 13,
+//   fontWeight: 700,
+//   borderRadius: 4,
+//   border: 0,
+//   boxShadow: 0,
+//   padding: '4px 16px',
+//   transition: '500ms',
+//   '&:hover': {
+//     background: '#83bc66',
+//   },
+// });
 
 const Layout = () => {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
   const [offset, setOffset] = useState();
 
   let wrapperRef = useRef();
@@ -250,6 +250,12 @@ const Layout = () => {
           <SubHeader>Experience</SubHeader>
           <List>
             <ListItem>
+              <LinkItem href="https://starburst.io" target="_blank" stryl>
+                Starburst Data
+              </LinkItem>{' '}
+              - Web Developer
+            </ListItem>
+            <ListItem>
               <LinkItem href="https://robinpowered.com" target="_blank" stryl>
                 Robin Powered
               </LinkItem>{' '}
@@ -274,7 +280,6 @@ const Layout = () => {
               </ListText>
             </ListItem>
           </List>
-
           <SubHeader>Education</SubHeader>
           <List>
             <ListItem>
